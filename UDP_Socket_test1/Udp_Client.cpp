@@ -27,6 +27,7 @@ int main() {
 	//发送完成，关闭socket
 	cout << "finished socket" << endl;
 	closesocket(SendSocket);
+	cout << "hello" << endl;
 	cout << "Exting" << endl;
 	WSACleanup();
 
